@@ -24,10 +24,19 @@ OWASP MASVS provides security requirements that developers and testers can use w
 Resource: OWASP – Mobile Application Security Verification Standard - https://mas.owasp.org/MASVS/
 
 ## Networking
+BGP hijacking happens when a network incorrectly or deliberately announces internet addresses that belong to another network. This can cause traffic to take the wrong path or become unavailable. RPKI helps by letting address holders publish signed Route Origin Authorizations (ROAs), which say which networks may announce their prefixes. Operators can compare incoming routes against this information and reject invalid announcements. However, RPKI checks the route’s origin, not every network along its path.
+
+Resource: IETF – RFC 6811: BGP Prefix Origin Validation - https://www.rfc-editor.org/info/rfc6811/
 
 ## Cybersecurity
+Log4Shell (CVE-2021-44228) showed how one vulnerable software library can affect many different systems. The problem was found in certain versions of Apache Log4j 2, a tool Java applications use for logging. Under the right conditions, attacker-controlled text could trigger a dangerous JNDI lookup and lead to remote code execution. To respond, organizations needed to find affected Log4j components and update them to supported, fixed versions. Checking dependencies is important because libraries can be included indirectly.
+
+Resource: Apache Logging Services – Security Vulnerabilities - https://logging.apache.org/security.html
 
 ## Data
+A Software Bill of Materials (SBOM) is a list of the components used to build a software product, including external libraries. It helps security teams find which applications may use a vulnerable component. According to NTIA, the minimum data fields include the supplier, component name and version, other identifiers, dependency relationships, SBOM author, and timestamp. An SBOM does not make software secure on its own, but it makes investigating new vulnerabilities faster and more organized.
+
+Resource: NTIA – The Minimum Elements for a Software Bill of Materials - https://www.ntia.gov/sites/default/files/publications/sbom_minimum_elements_report_0.pdf
 
 ## Misconception in My Track
 
