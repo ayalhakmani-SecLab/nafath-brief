@@ -6,7 +6,7 @@ Digital services are part of our daily lives, and keeping them secure is becomin
 
 This brief explores six important topics related to software supply chain security, including protecting sensitive information, understanding AI attacks, securing mobile applications, preventing network routing threats, learning from the Log4Shell vulnerability, and tracking software components.
 
-Although these topics may seem different, they are closely connected. Understanding how they affect each other can help cybersecurity professionals identify risks earlier, protect important systems, and respond more effectively when security problems occur.
+Although these topics may seem different, they are closely connected. For cybersecurity teams, the Log4Shell case shows why checking software dependencies early matters and why a quick, informed response can prevent bigger security problems.
 
 ## Software
 Passwords and API keys should not be written directly into application code. The Twelve-Factor App approach recommends keeping settings that change between deployments in environment variables. This makes it easier to use different settings for testing and production without changing the program itself. It also reduces the chance of accidentally sharing sensitive information when a project is uploaded to GitHub. However, environment variables still need protection, since moving secrets out of the code does not automatically make them safe.
