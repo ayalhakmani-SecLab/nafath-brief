@@ -1,5 +1,3 @@
-# nafath-brief
-Nafath Discovery Mission -NAFATH-V4 Cybersecurity
 # NAFATH-V4 Cybersecurity Brief
 
 This repository contains my research for the NAFATH-V4 Discovery Mission, focusing on cybersecurity.
